@@ -9,7 +9,6 @@ export class userDto{
     @IsNotEmpty()
     @IsString()
     @MinLength(8)
-    @MaxLength(64)
-    @Matches(/^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/, {message:'Password Too Weak'})
+    @MaxLength(64)    
     password: string;
 }
