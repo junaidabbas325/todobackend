@@ -5,7 +5,7 @@ db:
   type: 'postgres'
   port: 5432
   database: 'siagyjaj'
-  host: 'queenie.db.elephantsql.com:5432'
+  host: 'queenie.db.elephantsql.com'
   username: 'siagyjaj'
   password: 'HFNxG2YTBsptiKRw7ExfkaZJmDRWVNa6'
   synchronise: true
