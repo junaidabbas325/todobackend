@@ -5,7 +5,9 @@ async function bootstrap(){
   const serverConfig = config.get('server')  
   const app = await NestFactory.create(AppModule);
   const Port = serverConfig.port
-  app.enableCors();
+  app.enableCors({
+    origin: 'https://stacktodo.herokuapp.com/'
+  });
   await app.listen(process.env.PORT || Port, ()=>{
     console.log(`Host On Port # ${Port}`)
     
