@@ -1,5 +1,5 @@
 db:
-  host: 'queenie.db.elephantsql.com'
+  host: 'queenie.db.elephantsql.com:5432'
   username: 'siagyjaj'
   password: 'HFNxG2YTBsptiKRw7ExfkaZJmDRWVNa6'
   synchronise: true
