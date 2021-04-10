@@ -51,7 +51,6 @@ export class TaskRepository extends Repository<Task>{
     async updateData(id: number, taskDto: createTaskDto, user: User):Promise<Task>{
         const {title, description, status} = taskDto
         const task = await this.getDataById(id, user)
-        console.log(task)
         task.title = title || task.title,
         task.description = description ||  task.description,
         task.status = status || task.status

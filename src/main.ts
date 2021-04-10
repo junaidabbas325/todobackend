@@ -8,9 +8,6 @@ async function bootstrap(){
   app.enableCors({
     origin: 'https://stacktodo.herokuapp.com/'
   });
-  await app.listen(process.env.PORT || Port, ()=>{
-    console.log(`Host On Port # ${Port}`)
-    
-  })
+  await app.listen(process.env.PORT || Port)
 }
 bootstrap()

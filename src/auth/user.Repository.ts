@@ -12,7 +12,6 @@ export class UserRepository extends Repository<User>{
         user.salt = await bcrypt.genSalt(),
         user.password = await this.passwordHashing(password, user.salt)
         try{
-            console.log(user)
             await user.save()   
         }catch(error){
             if(error.code === '23505'){
