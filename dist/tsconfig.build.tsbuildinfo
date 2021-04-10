@@ -3492,7 +3492,7 @@
         "affectsGlobalScope": false
       },
       "../src/tasks/taskrepository.ts": {
-        "version": "40689416897aa610439f20d8048c4ee3aaabf4dc9cf0af8685cf610b6dfdc609",
+        "version": "b2930e65b9a22fc26df372bb49bd2380a41c476068693a9944289ba8cf3ebccd",
         "signature": "406efe57eb2bee0e69aa4f3b9bfffc9e7aac148e8af7e6fc272f612a547b91fa",
         "affectsGlobalScope": false
       },
@@ -3832,7 +3832,7 @@
         "affectsGlobalScope": false
       },
       "../src/auth/user.repository.ts": {
-        "version": "40d445b4afffe5340d97b419743602661d0208483b564a31ea6ea9fdf5125ee2",
+        "version": "17626744afb78783359ba8afe8b5e5fe81b703a78f3a69a5e9df15c482c3f132",
         "signature": "2bd02f6fd853685ec5c91521c0e90c6591272ba059a0f306e69f7861742359fa",
         "affectsGlobalScope": false
       },
@@ -3847,7 +3847,7 @@
         "affectsGlobalScope": false
       },
       "../src/auth/jwt.strategy.ts": {
-        "version": "85b7dec952780d19cd7289448a04ad69ff478455a8fe4eae504167cf5451140d",
+        "version": "9dbc53d426e03864f2483ef05032f0e1092efbf1c76e1b8f87b150a21b13ccf7",
         "signature": "c3f7348f2916187770546370724f9804cb9ba3a3f1ad28ead6fa6135fed20d67",
         "affectsGlobalScope": false
       },
@@ -4052,7 +4052,7 @@
         "affectsGlobalScope": false
       },
       "../src/main.ts": {
-        "version": "5ce8caf0f046c7576e6f04acce990ea3a4c97dd1155ece8adb860d9de27bc30a",
+        "version": "efddf2fd2b639af6623e1eda6c0041c89a228137942035b87583976c063fd84a",
         "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6",
         "affectsGlobalScope": false
       },
@@ -11709,14 +11709,11 @@
       "../src/auth/dto/userdto.ts",
       "../src/auth/jwt.getuserdecorator.ts",
       "../src/auth/jwt.payload.interface.ts",
-      "../src/auth/jwt.strategy.ts",
       "../src/auth/user.entity.ts",
-      "../src/auth/user.repository.ts",
       "../src/config/typeormconfig.ts",
       "../src/tasks/dto/createtaskdto.ts",
       "../src/tasks/dto/searchfilter.ts",
       "../src/tasks/task.entity.ts",
-      "../src/tasks/taskrepository.ts",
       "../src/tasks/tasks.controller.ts",
       "../src/tasks/tasks.module.ts",
       "../src/tasks/tasks.service.ts",

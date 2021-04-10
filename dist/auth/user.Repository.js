@@ -19,7 +19,6 @@ let UserRepository = class UserRepository extends typeorm_1.Repository {
             user.salt = await bcrypt.genSalt(),
             user.password = await this.passwordHashing(password, user.salt);
         try {
-            console.log(user);
             await user.save();
         }
         catch (error) {

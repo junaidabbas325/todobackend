@@ -46,7 +46,6 @@ let TaskRepository = class TaskRepository extends typeorm_1.Repository {
     async updateData(id, taskDto, user) {
         const { title, description, status } = taskDto;
         const task = await this.getDataById(id, user);
-        console.log(task);
         task.title = title || task.title,
             task.description = description || task.description,
             task.status = status || task.status;
