@@ -5,6 +5,10 @@ db:
   type: 'postgres'
   port: 5432
   database: 'siagyjaj'
+  host: 'queenie.db.elephantsql.com:5432'
+  username: 'siagyjaj'
+  password: 'HFNxG2YTBsptiKRw7ExfkaZJmDRWVNa6'
+  synchronise: true
 
 jwt:
   expiresIn: 3600
