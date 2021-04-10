@@ -6,9 +6,9 @@ const config = require("config");
 async function bootstrap() {
     const serverConfig = config.get('server');
     const app = await core_1.NestFactory.create(app_module_1.AppModule);
-    const Port = process.env.PORT || serverConfig.port;
+    const Port = serverConfig.port;
     app.enableCors();
-    await app.listen(Port, () => {
+    await app.listen(process.env.PORT || Port, () => {
         console.log(`Host On Port # ${Port}`);
     });
 }

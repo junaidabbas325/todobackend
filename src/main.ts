@@ -4,9 +4,9 @@ import * as config from 'config'
 async function bootstrap(){
   const serverConfig = config.get('server')  
   const app = await NestFactory.create(AppModule);
-  const Port = process.env.PORT || serverConfig.port
+  const Port = serverConfig.port
   app.enableCors();
-  await app.listen(Port, ()=>{
+  await app.listen(process.env.PORT || Port, ()=>{
     console.log(`Host On Port # ${Port}`)
     
   })
